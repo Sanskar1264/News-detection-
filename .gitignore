@@ -1,59 +1,18 @@
 # Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-venv/
-env/
-ENV/
-.venv
-venvpp/
-venv_311/
-
-
-# Model files
-*.pth
-*.pt
-*.onnx
-best_model.pth
-exports/
-
-# Data
-uploads/
-*.csv
-!processed_data/preprocessed_fakeddit.csv
-# images/
-!images/.gitkeep
-processed_data/*_train.csv
-processed_data/*_val.csv
-processed_data/*_test.csv
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-training_results.json
-
-# Temporary files
-*.tmp
-temp/
-
-best_model.pth
 venv/
 __pycache__/
 *.pyc
 .env
+
+# Model checkpoints
+*.pth
+*.pt
+*.onnx
+
+# Dataset and generated files
 images/
 processed_data/
 uploads/
+
+# System files
 .DS_Store
