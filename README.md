@@ -308,11 +308,6 @@ CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:5001", "app:app"]
 - Uploaded files auto-deleted after processing
 - Input validation on server side
 
-## 📚 References
-
-- [FakeReddit Dataset](https://github.com/entitize/Fakeddit)
-- [Kaggle Notebook Reference](https://www.kaggle.com/code/hustzx/fakeddit-multimodal-fake-news-classification)
-
 ## 📄 License
 
 This project is provided as-is. Please refer to the original FakeReddit dataset license for data usage terms.

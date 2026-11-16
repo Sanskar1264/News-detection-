@@ -48,3 +48,12 @@ training_results.json
 *.tmp
 temp/
 
+best_model.pth
+venv/
+__pycache__/
+*.pyc
+.env
+images/
+processed_data/
+uploads/
+.DS_Store
